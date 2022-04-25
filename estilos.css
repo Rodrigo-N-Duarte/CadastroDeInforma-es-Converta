@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+ 
+}
+.container {
+  width: 90%;
+}
+
+#novoDado { /*botao adicionar nova avaliação*/
+  padding: 10px;
+  color: white;
+  background-color: rgb(57, 57, 226);
+  border-radius: 10px;
+}
+
+.modal-container { /*caracteristicas dos modulos onde digita o nome e o comentario*/
+  display: none;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  margin-top: 400px;
+  margin-left: 350px;
+}
+
+.active { /*funcionamento dos botões 'active'*/
+  display: flex;
+}
+
+table { /*caracteristicas tabela de amostras*/
+  width: 100%;
+  border-spacing: 10px;
+  word-break: break-all;
+  border-collapse: collapse;
+}
+
+thead { /*subtitulos (nome, avaliações...)*/
+  background-color: rgb(235, 235, 235);
+}
+
+tbody tr td { /*organização dos principais tópicos (tr,td) dentro da tbody*/
+  vertical-align: text-top;
+  padding: 6px;
+  max-width: 50px;
+}
+
+tbody tr { /*organização dos principais tópicos (tr) dentro da tbody*/
+  margin-bottom: 50px;
+}
+
+thead tr th { /*organização dos principais tópicos (tr,th) dentro do thead*/
+  text-align: start;
+  margin-bottom: 50px;
+  padding: 5px;
+}
+
+thead tr th.aoclicar { /*organização dos principais tópicos (tr,th) dentro da table*/
+  width: 100px;
+  text-align: center;
+}
+
+tbody tr td.aoclicar { /*organização de elementos dentro da table geral*/
+  text-align: center;
+}
+
+
+
+/*Media Queries*/
+@media (max-width: 700px) { /*organização de itens com media query*/
+  body {
+    font-size: 20px;
+  }
+}
