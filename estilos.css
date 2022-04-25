@@ -45,6 +45,9 @@ body {
 
 table { /*caracteristicas tabela de amostras*/
   width: 100%;
+  border-spacing: 10px;
+  word-break: break-all;
+  border-collapse: collapse;
 }
 
 thead { /*subtitulos (nome, avaliações...)*/
@@ -52,10 +55,9 @@ thead { /*subtitulos (nome, avaliações...)*/
 }
 
 tbody tr td { /*organização dos principais tópicos (tr,td) dentro da tbody*/
+  vertical-align: text-top;
   padding: 6px;
   max-width: 50px;
-  vertical-align: text-top;
-  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
 tbody tr { /*organização dos principais tópicos (tr) dentro da tbody*/
@@ -68,12 +70,12 @@ thead tr th { /*organização dos principais tópicos (tr,th) dentro do thead*/
   padding: 5px;
 }
 
-thead tr th.acao { /*organização dos principais tópicos (tr,th) dentro da table*/
+thead tr th.aoclicar { /*organização dos principais tópicos (tr,th) dentro da table*/
   width: 100px;
   text-align: center;
 }
 
-tbody tr td.acao { /*organização de elementos dentro da table geral*/
+tbody tr td.aoclicar { /*organização de elementos dentro da table geral*/
   text-align: center;
 }
 
