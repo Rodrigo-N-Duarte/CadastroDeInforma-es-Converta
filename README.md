@@ -12,4 +12,4 @@ A página inicial (index) contém arquivos mock/fake, as funcionalidades dessa p
 
 Nesses botões o usuário pode entrar com suas informações, edita-las ou exclui-las do localstorage.
 
-Segue o link do upload do site no github pages: 
+Segue o link do upload do site no github pages: https://rodrigo-n-duarte.github.io/CadastroDeInforma-es-Converta/
