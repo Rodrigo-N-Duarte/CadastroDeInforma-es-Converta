@@ -10,6 +10,6 @@ entrar em contato com a equipe de desenvolvedores por meio de um "reclame aqui".
 
 A página inicial (index) contém arquivos mock/fake, as funcionalidades dessa parte do trabalho estão presentes nos dois botões próximos ao rodapé.
 
-Nesses botões o usuário pode entrar com suas informações, edita-las ou exclui-las do localstorage.
+Nas páginas referentes a esses botões o usuário pode entrar com suas informações, edita-las ou exclui-las do localstorage.
 
 Segue o link do upload do site no github pages: https://rodrigo-n-duarte.github.io/CadastroDeInforma-es-Converta/
